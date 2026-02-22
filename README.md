@@ -11,5 +11,8 @@
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> fe6c0e4a6b06969d9668d5f774e485a3ca6d6a97
