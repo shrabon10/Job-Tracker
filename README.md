@@ -25,5 +25,7 @@ It is useful because it improves performance by reducing the number of event lis
 => preventDefault() stops the browser’s default action for an event, such as preventing a form from submitting or a link from navigating to another page.
 =>stopPropagation() stops the event from bubbling up the DOM tree, meaning parent elements will not receive the event.
 
-=>In short, preventDefault() controls the browser’s behavior, while stopPropagation() controls event flow in the DOM.
+GitHub Repository Link: https://github.com/shrabon10/Job-Tracker
+
+Live Site Link: https://shrabon10.github.io/Job-Tracker/
 
