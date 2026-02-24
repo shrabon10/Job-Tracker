@@ -44,7 +44,7 @@ function calculateJobCount() {
 };
 
 
-// filter  job button toggle 
+// job button toggle 
 function showFilterBtn(id) {
 
     allFilterBtn.classList.remove("bg-[#3b82f6]", "text-white");
@@ -72,7 +72,6 @@ function showFilterBtn(id) {
         interviewFilterSection.classList.add("hidden");
         rejectedFilterSection.classList.add("hidden");
 
-        // available jobs count
         availableInterViewCount.parentNode.classList.add("hidden");
         availableRejectedCount.parentNode.classList.add("hidden");
 
@@ -96,7 +95,7 @@ function renderAll() {
     showRenderInterview();
     showRenderReject();
 }
-// not available jobs
+
 function showEmptyCard(section) {
 
     section.innerHTML = "";
@@ -141,7 +140,7 @@ function showRenderInterview() {
                         </div>
 
                         <div>
-                            <button class="delete-btn text-red-600 px-3 py-1 rounded font-extrabold text-3xl">
+                             <button class="delete-btn text-red-600 px-3 py-1 rounded font-extrabold text-xl">
                                 <span
                                     class="p-2 shadow  border-red-700 hover:bg-red-100 hover:border transition-all duration-600 rounded-full cursor-pointer"><i
                                         class="fa-regular fa-trash-can"></i></span>
@@ -203,7 +202,7 @@ function showRenderReject() {
                         </div>
 
                         <div>
-                            <button class="delete-btn text-red-600 px-3 py-1 rounded font-extrabold text-3xl">
+                            <button class="delete-btn text-red-600 px-3 py-1 rounded font-extrabold text-xl">
                                 <span
                                     class="p-2 shadow  border-red-700 hover:bg-red-100 hover:border transition-all duration-600 rounded-full cursor-pointer"><i
                                         class="fa-regular fa-trash-can"></i></span>
